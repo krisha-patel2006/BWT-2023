@@ -1,17 +1,3 @@
-<!DOCTYPE html>
-<html>
-<body>
-
-<h2>Demo External JavaScript</h2>
-
-<p id="demo">A Paragraph.</p>
-
-<button type="button" onclick="myFunction()">Try</button>
-
-<p>This example links to "myScript.js".</p>
-<p>(myFunction is stored in "myScript.js")</p>
-
-<script src="./myScript.js"></script>
-
-</body>
-</html>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Paragraph changed.";
+}
